@@ -182,14 +182,14 @@ footer a{
 }
 
 /* MEDIA QUERIES */
-
+/*tablets*/
 @media screen and (max-width: 700px){
 
 #featured li{
   width: 46%; }
 
 }
-
+/*mobiles*/
 @media screen and (max-width: 400px){
 
 #featured li{
