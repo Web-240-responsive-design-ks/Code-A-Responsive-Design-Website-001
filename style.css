@@ -214,5 +214,21 @@ footer ul{width: 48%;
 /*mobiles*/
 @media screen and (max-width: 400px){
 
+  #featured li{
+    width: 90%;
+  margin: 20px 5%;;
+  }
+  footer ul{width: 98%;
+  }
 
+  #home-menu li{
+    float: none;
+    width: 96%;
+    margin: 30px 2% !Important;
+  }
+  #main-banner img{
+    position: relative;
+    width: 180%;
+    left: -40%
+  }
 }
