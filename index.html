@@ -5,10 +5,14 @@
     <head>
         <title>Resto</title>
         <link href="style.css" type="text/css" rel="stylesheet">
+        //Picture Element html5 shiv
+        document.createElement( "picture" );
+      </script>
+      <script src="picturefill.js" async></script>
     </head>
 
     <body>
-    
+
         <header>
             <div class="wrapper">
                 <h1 class="logo">Resto</h1>
@@ -24,13 +28,18 @@
                 </nav>
             </div>
         </header>
-        
+
         <!-- Start homepage content -->
-        
+
         <div id="main-banner">
-            <img src="images/banner.jpg" alt="Welcome to Resto">
+     <picture>
+       <source srcset="images/banner-small.jpg" media="(max-width: 480px)">
+      <source srcset="images/banner-medium.jpg" media="(min-width: 768px)">
+        <img srcset="images/banner.jpg" alt="pic">
+      </picture>
+       <
         </div>
-        
+
         <div class="wrapper">
         <section id="home-menu">
             <h2>Menu</h2>
@@ -77,7 +86,7 @@
                 </li>
             </ul>
         </section>
-        
+
         <section id="featured">
             <ul>
                 <li>
@@ -108,7 +117,7 @@
         </section>
         </div>
         <!-- End homepage content -->
-        
+
         <footer>
             <div class="wrapper">
                 <ul>
@@ -136,7 +145,7 @@
                 </ul>
             </div>
         </footer>
-    
+
     </body>
-    
+
 </html>
